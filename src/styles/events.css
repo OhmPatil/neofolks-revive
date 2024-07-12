@@ -1,0 +1,53 @@
+.glowing-circle {
+    width: 500px;
+    height: 500px;
+    border-radius:50%;
+    /* background-color: #fff; */
+    -webkit-animation: glowing 1s ease-in-out infinite alternate;
+    -moz-animation: glowing 1s ease-in-out infinite alternate;
+    animation: glowing 1s ease-in-out infinite alternate;
+  }
+  @keyframes glowing {
+    from {
+      box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f0f, 0 0 40px #0ff, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    to {
+      box-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+/* 
+  .redbg{
+    background-image: url('../assets/RedBgGlow.png');
+    background-size: cover;
+    background-position: 0px 0px;
+    -webkit-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    -moz-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+  }
+
+  #greenbg{
+    background-image: url('../assets/GreenBgGlow.png');
+    background-size: cover;
+    background-position: 0px 0px;
+  } */
+
+  .redbg{
+    background-image: url('../assets/RedBgGlow.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: 0px;
+    /* -webkit-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    -moz-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38); */
+  }
+  
+  .greenbg{
+    /* background-image: url('../assets/GreenBgGlow.png');
+    background-size: 90%;
+    background-repeat: no-repeat;
+    background-position: center; */
+
+        -webkit-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    -moz-box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+    box-shadow: 0px 0px 208px 70px rgba(171,21,21,0.38);
+  }

@@ -1,0 +1,8 @@
+#bg{
+    content: url('../assets/BigBGPaper.png');
+    position: absolute;
+    /* left: -300px; */
+    /* top: -35px; */
+    width: 1500px;
+    /* height: auto; */
+}
